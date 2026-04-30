@@ -82,7 +82,7 @@ class BankAccount {
         this.saldo = saldoAwal;
     }
 
-    // Method setor
+    
     setor(jumlah) {
         if (jumlah <= 0) {
             console.log('Error: jumlah setor harus > 0');
